@@ -1,0 +1,36 @@
+syntax = "proto3"; 
+
+package FlightCrawler; 
+
+service FlightService {
+  rpc getFlights (GetFlightsRequest) returns (GetFlightsResponse);
+}
+
+message Flight {
+
+  string airline = 1;
+  string code = 2;
+  string origin_code = 3;
+  string origin_name = 4;
+  string destiny_code = 5;
+  string destiny_name = 6;
+
+  int64  depart_date = 7;
+  string depart_time = 8;
+  string landing_time = 9;
+
+  string service_type = 10;
+  double price = 11;
+  int64 craw_at = 12;
+}
+
+message GetFlightsRequest {
+  string origin = 1;
+  string destiny = 2;
+  string depart_date = 3;
+}
+
+message GetFlightsResponse  {
+  repeated Flight flights = 1;
+  int64 res_at = 2;
+}

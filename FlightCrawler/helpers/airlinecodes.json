@@ -1,0 +1,12 @@
+[
+  {"code" : "SGN", "name" : "Tp.Hồ Chí Minh", "JSCode" : "SGN", "VJCode" : "Tp.Hồ Chí Minh", "VNCode" : ""},
+  {"code" : "HAN", "name" : "Hà Nội", "JSCode" : "HAN", "VJCode" : "Hà Nội", "VNCode" : ""},
+  {"code" : "DAD", "name" : "Đà Nẵng", "JSCode" : "DAD", "VJCode" : "Đà Nẵng", "VNCode" : ""},
+  {"code" : "CXR", "name" : "Nha Trang", "JSCode" : "CXR", "VJCode" : "Nha Trang", "VNCode" : ""},
+  {"code" : "HPH", "name" : "Hải Phòng", "JSCode" : "HPH", "VJCode" : "Hải Phòng", "VNCode" : ""},
+  {"code" : "HUI", "name" : "Huế", "JSCode" : "HUI", "VJCode" : "Huế", "VNCode" : ""},
+  {"code" : "PQC", "name" : "Phú Quốc", "JSCode" : "PQC", "VJCode" : "Phú Quốc", "VNCode" : ""},
+  {"code" : "DLI", "name" : "Đà Lạt", "JSCode" : "DLI", "VJCode" : "Đà Lạt", "VNCode" : ""},
+  {"code" : "BMV", "name" : "Buôn Ma Thuột", "JSCode" : "BMV", "VJCode" : "Buôn Ma Thuột", "VNCode" : ""},
+  {"code" : "CAH", "name" : "Cà Mau", "JSCode" : "CAH", "VJCode" : "Cà Mau", "VNCode" : ""}
+]
